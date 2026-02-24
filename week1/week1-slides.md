@@ -499,37 +499,6 @@ Predict $y$ for new $x$: we want the model to **generalize**—to perform well o
 
 ---
 
-# Unsupervised Learning
-
-## Learning "Without a Teacher"
-
-### Analogy: Exploration
-
-- No labels, only data
-- System discovers structures on its own
-- "What can we learn from this data?"
-
-### Typical Questions
-
-- How many groups does this data split into?
-- Which features are important?
-- Are there anomalies?
-- How can we compress the data?
-
-### Mathematical Formulation
-
-Only inputs:
-$$\{x_1, x_2, ..., x_n\}$$
-
-**Goal:** Find the hidden structure in the data—no labels are given. We have a set of observations and want to discover groups, outliers, or a lower-dimensional representation, without a "teacher" telling us the right answer.
-
-### Two Main Categories
-
-1. **Clustering**: Assign data points to groups so that similar points are together and different groups are separated; no predefined labels.
-2. **Dimensionality Reduction**: Represent data with fewer features while preserving as much structure as possible (e.g. for visualization or efficiency).
-
----
-
 # Supervised Learning - Task Types
 
 <div class="two-columns">
